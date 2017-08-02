@@ -3,16 +3,16 @@ import org.junit.*;
 import driver_management.*;
 
 
-public class DodgemCarTest {
+public class QuadBikeTest {
 
 
-	DodgemCar car;
+	QuadBike bike;
 
 
 @Before
   public void before(){
 
-  	car = new DodgemCar(10,2);
+  	bike = new QuadBike(50,500);
  
   }
 
@@ -20,16 +20,16 @@ public class DodgemCarTest {
 
   public void driveTime() {
 
-  	assertEquals(1, car.driveTime(10));
+  	assertEquals(1, bike.driveTime(50));
   }
 
 
   
 @Test
 
-  public void hasSeats() {
+  public void hasEngine() {
 
-  	assertEquals(2, car.getSeats());
+  	assertEquals(500, bike.getEngine());
   }
 
 

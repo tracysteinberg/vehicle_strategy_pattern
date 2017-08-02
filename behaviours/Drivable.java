@@ -3,6 +3,7 @@ import behaviours.*;
 
 public interface Drivable {
 
-public int driveDistance(int distance);
+public int driveTime(int distance);
+
 
 }
